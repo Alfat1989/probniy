@@ -1,0 +1,12 @@
+.main-head {
+  text-align: center;
+}
+
+.main-head-container-image {
+  width: 50%;
+  text-align: left;
+}
+
+.main-head-container {
+  display: flex;
+}

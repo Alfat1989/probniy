@@ -1,11 +1,7 @@
-var names = ['Alfat'];
-// names.push('Alfat');
-// names.push('Alfrit');
-// names.push('Dina');
-// names.push('Farit');
+var colors = [];
+colors.push('red');
+colors.push('green');
+colors.push('blue');
+colors.push('black');
 
-if (names === 'Alfat') {
-    console.log('Hello me!!!');
-} else {
-    console.log('Is not');
-}
+console.log(colors[2]);

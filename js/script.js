@@ -1,3 +1,9 @@
-var weather = ['rain', 'snow', 'hail', 'money is poured'];
+var first = Math.floor(Math.random()*4);
+var second = Math.floor(Math.random() * 6);
 
-console.log(weather[Math.floor(Math.random()*4)])
+var result = first * second
+
+console.log("Первое число: "+first);
+console.log("Второе число: "+second);
+console.log("Итог: " + result);
+

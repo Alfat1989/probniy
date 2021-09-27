@@ -1,9 +1,15 @@
-var first = Math.floor(Math.random()*4);
-var second = Math.floor(Math.random() * 6);
+var Maria = {
+    age: 21,
+    eyes:'green'
+}
+var Anna = {
+    age: 23,
+    eyes:'blue'
+}
+var Polina = {
+    age: 24,
+    eyes:'brown'
+}
 
-var result = first * second
-
-console.log("Первое число: "+first);
-console.log("Второе число: "+second);
-console.log("Итог: " + result);
-
+var names = [Maria, Anna, Polina];
+console.log(names)

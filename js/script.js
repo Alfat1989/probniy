@@ -12,4 +12,4 @@ var Polina = {
 }
 
 var names = [Maria, Anna, Polina];
-console.log(names)
+console.log(names[1]['age'])

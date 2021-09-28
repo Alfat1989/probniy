@@ -1,15 +1,18 @@
-var Maria = {
-    age: 21,
-    eyes:'green'
-}
-var Anna = {
-    age: 23,
-    eyes:'blue'
-}
-var Polina = {
-    age: 24,
-    eyes:'brown'
+var names = ['Alfat', 'Alfrit', 'Almir', 'Dina', 'Farit', 'Goblin']
+
+Name=[Math.floor(Math.random() * 6)]
+console.log(names[Name]);
+if ((names[Name]) === 'Alfat') {
+    console.log('Hello me')
+} else if ((names[Name]) === 'Alfrit') {
+    console.log('Hello bro')
+} else if ((names[Name]) === 'Almir') {
+    console.log('Hello little bro')
+} else if ((names[Name]) === 'Farit') {
+    console.log('Hello dad')
+} else if ((names[Name]) === 'Dina') {
+    console.log('Hello mom')
+} else {
+    console.log('Who are you')
 }
 
-var names = [Maria, Anna, Polina];
-console.log(names[1]['age'])

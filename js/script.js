@@ -16,3 +16,11 @@ if ((names[Name]) === 'Alfat') {
     console.log('Who are you')
 }
 
+for (var x = 2;  x < 100; x =x*2) {
+    console.log(x);
+}
+
+var city = ['London', 'Paris', 'Miami', 'Sicilia']
+for (var x = 0; x < city.length; x++){
+    console.log(city[x])
+}
